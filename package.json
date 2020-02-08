@@ -1,0 +1,18 @@
+{
+  "name": "contact-form",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "http://samanacharya.github.io/contact-form",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
